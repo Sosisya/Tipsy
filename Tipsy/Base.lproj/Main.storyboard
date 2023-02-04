@@ -81,16 +81,16 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="VCT-9q-QR8">
-                                                <rect key="frame" x="125.00000000000001" y="244.33333333333337" width="143.33333333333337" height="32"/>
+                                                <rect key="frame" x="128" y="244.33333333333337" width="137.33333333333337" height="32"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovv-Dz-R6R">
-                                                        <rect key="frame" x="0.0" y="0.0" width="22.333333333333332" height="32"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovv-Dz-R6R">
+                                                        <rect key="frame" x="0.0" y="0.0" width="16.333333333333332" height="32"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                                         <color key="textColor" red="0.39215683940000001" green="0.71764707569999997" blue="0.53333336109999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="iYo-5r-L79">
-                                                        <rect key="frame" x="49.333333333333343" y="0.0" width="94" height="32"/>
+                                                        <rect key="frame" x="43.333333333333343" y="0.0" width="94" height="32"/>
                                                         <connections>
                                                             <action selector="steppedValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="aP0-KJ-Exi"/>
                                                         </connections>
@@ -140,7 +140,7 @@
                                         <rect key="frame" x="0.0" y="44.666666666666671" width="393" height="130.33333333333331"/>
                                         <color key="textColor" red="0.39215683940000001" green="0.71764707569999997" blue="0.53333336109999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                 </subviews>
                                 <constraints>

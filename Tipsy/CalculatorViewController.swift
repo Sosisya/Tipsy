@@ -9,7 +9,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var splitNumberLabel: UILabel!
 
     var tip = 0.0
-    var countPerson = 0
+    var countPerson = 1
     var sumOfBill = 0.0
     var result = 0.0
 
